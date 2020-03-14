@@ -38,7 +38,7 @@ int buscar(int p[], int tamanho, int chave){
 	return -1;
 }
 
-void pop2(int p[], int tamanho){
+void pop(int p[], int tamanho){
 	int i;
 	for (i = tamanho -1; i >= 0; i--){
 		if (p[i] != 0){
@@ -46,8 +46,6 @@ void pop2(int p[], int tamanho){
 			return;
 		}
 	}
-	
-	//teste mostrando alterações nas versões
 }
 
 
